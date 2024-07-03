@@ -1,8 +1,6 @@
 import 'package:ecommerce/features/home/presentation/widgets/home_tab.dart';
 import 'package:ecommerce/features/home/presentation/widgets/nav_bar_icon.dart';
 import 'package:ecommerce/features/products/presentation/widgets/products_tab.dart';
-import 'package:ecommerce/features/profile/presentation/widgets/profile_tab.dart';
-import 'package:ecommerce/features/wishlist/presentation/widgets/wishlist_tab.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -18,8 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final _tabs = const [
     HomeTab(),
     ProductsTab(),
-    WishlistTab(),
-    ProfileTab(),
+
   ];
   int _currentTabIndex = 0;
 
